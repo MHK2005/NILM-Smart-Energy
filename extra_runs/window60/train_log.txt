@@ -1,0 +1,35 @@
+seed=42 seen=[661, 1642, 2335, 2361, 2818, 3039, 3456, 3538, 4031, 4373, 5746, 6139, 7719, 7800, 7901, 7951, 8156, 8386, 9019, 9160, 9922] unseen=[4767, 8565] thresholds_kW={'air1': np.float32(0.357), 'drye1': np.float32(0.236), 'car1': np.float32(0.338), 'refrigerator1': np.float32(0.04)}
+train   windows=  765081  ON counts per appliance=[161238, 9200, 13538, 417723]  valid targets=[728263, 508582, 182096, 619222]
+val     windows=  411946  ON counts per appliance=[66180, 4735, 7389, 227347]  valid targets=[392250, 274131, 96896, 334775]
+test    windows= 1651419  ON counts per appliance=[9359, 20553, 29617, 824277]  valid targets=[1572638, 1101566, 392291, 1337663]
+unseen  windows= 1049632  ON counts per appliance=[267525, 25757, 28970, 779466]  valid targets=[1049632, 1049216, 523793, 1049161]
+BCE pos_weight=[1.8799999952316284, 7.369999885559082, 3.5299999713897705, 1.0]
+
+=== mlp: 57288 parameters
+mlp epoch  1  train_loss=0.3452  val_loss=0.5054  (7s)
+mlp epoch  2  train_loss=0.2785  val_loss=0.4837  (6s)
+mlp epoch  3  train_loss=0.2641  val_loss=0.4653  (7s)
+mlp epoch  4  train_loss=0.2567  val_loss=0.4715  (6s)
+mlp epoch  5  train_loss=0.2527  val_loss=0.4577  (7s)
+mlp epoch  6  train_loss=0.2487  val_loss=0.4584  (8s)
+mlp epoch  7  train_loss=0.2453  val_loss=0.4551  (7s)
+mlp epoch  8  train_loss=0.2427  val_loss=0.4500  (8s)
+mlp epoch  9  train_loss=0.2404  val_loss=0.4549  (7s)
+mlp epoch 10  train_loss=0.2391  val_loss=0.4471  (8s)
+mlp epoch 11  train_loss=0.2373  val_loss=0.4525  (7s)
+mlp epoch 12  train_loss=0.2352  val_loss=0.4476  (7s)
+mlp epoch 13  train_loss=0.2337  val_loss=0.4430  (8s)
+mlp epoch 14  train_loss=0.2329  val_loss=0.4428  (7s)
+mlp epoch 15  train_loss=0.2315  val_loss=0.4450  (8s)
+mlp: best val_loss=0.4428, predictions saved
+
+=== cnn1d: 68392 parameters
+cnn1d epoch  1  train_loss=0.3046  val_loss=0.4744  (46s)
+cnn1d epoch  2  train_loss=0.2429  val_loss=0.4534  (39s)
+cnn1d epoch  3  train_loss=0.2292  val_loss=0.4448  (40s)
+cnn1d epoch  4  train_loss=0.2217  val_loss=0.4485  (44s)
+cnn1d epoch  5  train_loss=0.2169  val_loss=0.4365  (43s)
+cnn1d epoch  6  train_loss=0.2125  val_loss=0.4349  (40s)
+cnn1d epoch  7  train_loss=0.2093  val_loss=0.4294  (43s)
+cnn1d epoch  8  train_loss=0.2057  val_loss=0.4272  (44s)
+cnn1d: best val_loss=0.4272, predictions saved

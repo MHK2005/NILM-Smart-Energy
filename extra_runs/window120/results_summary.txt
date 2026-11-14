@@ -1,0 +1,23 @@
+Validation ranking (macro-F1 at the validation cut-off): {'air1': 0.961, 'car1': 0.886, 'drye1': 0.883, 'refrigerator1': 0.768}
+
+=== Chronological test (seen homes) ===
+ model     appliance  cutoff  val_macro_f1     ON     OFF  accuracy  balanced_acc  macro_f1      MAE_W     RMSE_W  meets_min  meets_higher
+   MLP          air1   0.625         0.958   9265 1561447     0.975         0.950     0.644  92.611000 316.476990      False         False
+   MLP         drye1   0.800         0.869  20512 1079548     0.990         0.868     0.866  43.202999 302.235992       True          True
+   MLP          car1   0.725         0.876  29612  362319     0.972         0.843     0.888 156.921005 487.134003       True         False
+   MLP refrigerator1   0.625         0.753 823539  513044     0.747         0.719     0.724  48.275002  69.049004      False         False
+1D-CNN          air1   0.625         0.964   9265 1561447     0.984         0.936     0.694  78.999001 274.257996      False         False
+1D-CNN         drye1   0.800         0.897  20512 1079548     0.992         0.903     0.897  59.216000 301.424011       True          True
+1D-CNN          car1   0.700         0.896  29612  362319     0.971         0.835     0.880 213.024002 533.080017       True         False
+1D-CNN refrigerator1   0.550         0.783 823539  513044     0.765         0.732     0.739  46.735001  67.824997      False         False
+
+=== Unseen homes (full year) ===
+ model     appliance  cutoff  val_macro_f1     ON     OFF  accuracy  balanced_acc  macro_f1      MAE_W     RMSE_W  meets_min  meets_higher
+   MLP          air1   0.625         0.958 267450  781762     0.926         0.883     0.899 250.714005 553.148987       True          True
+   MLP         drye1   0.800         0.869  25757 1023099     0.984         0.715     0.778  56.535999 325.558990      False         False
+   MLP          car1   0.725         0.876  28970  494643     0.960         0.911     0.840 288.894012 722.908020       True          True
+   MLP refrigerator1   0.625         0.753 779225  269630     0.748         0.636     0.645  47.493999  67.781998      False         False
+1D-CNN          air1   0.625         0.964 267450  781762     0.948         0.922     0.930 219.632004 474.799988       True          True
+1D-CNN         drye1   0.800         0.897  25757 1023099     0.989         0.808     0.860  63.714001 294.122009       True         False
+1D-CNN          car1   0.700         0.896  28970  494643     0.978         0.897     0.895 295.311005 759.377991       True          True
+1D-CNN refrigerator1   0.550         0.783 779225  269630     0.749         0.618     0.628  44.185001  66.042999      False         False
