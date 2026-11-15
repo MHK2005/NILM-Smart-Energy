@@ -1,0 +1,2 @@
+model,all3_meet_min,all3_meet_high,appliances_meeting_min
+sklearn MLP (check),False,False,2

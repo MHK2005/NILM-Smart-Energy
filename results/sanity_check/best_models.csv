@@ -1,0 +1,21 @@
+appliance,metric,best_model,value
+air1,accuracy,sklearn MLP (check),0.9605
+air1,balanced_accuracy,sklearn MLP (check),0.9539
+air1,macro_f1,sklearn MLP (check),0.9464
+air1,mae_W,sklearn MLP (check),169.5062
+air1,rmse_W,sklearn MLP (check),461.8642
+drye1,accuracy,sklearn MLP (check),0.9846
+drye1,balanced_accuracy,sklearn MLP (check),0.7472
+drye1,macro_f1,sklearn MLP (check),0.7857
+drye1,mae_W,sklearn MLP (check),52.4541
+drye1,rmse_W,sklearn MLP (check),337.5545
+car1,accuracy,sklearn MLP (check),0.9535
+car1,balanced_accuracy,sklearn MLP (check),0.8217
+car1,macro_f1,sklearn MLP (check),0.8262
+car1,mae_W,sklearn MLP (check),202.6749
+car1,rmse_W,sklearn MLP (check),571.9355
+refrigerator1,accuracy,sklearn MLP (check),0.6997
+refrigerator1,balanced_accuracy,sklearn MLP (check),0.6044
+refrigerator1,macro_f1,sklearn MLP (check),0.605
+refrigerator1,mae_W,sklearn MLP (check),44.6248
+refrigerator1,rmse_W,sklearn MLP (check),69.0911

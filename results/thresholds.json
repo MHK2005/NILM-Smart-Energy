@@ -1,0 +1,18 @@
+{
+  "air1": {
+    "threshold_kW": 0.3532,
+    "rule": "max(0.02 kW, 10% of training 99th percentile)"
+  },
+  "drye1": {
+    "threshold_kW": 0.2704,
+    "rule": "max(0.02 kW, 10% of training 99th percentile)"
+  },
+  "car1": {
+    "threshold_kW": 0.3705,
+    "rule": "max(0.02 kW, 10% of training 99th percentile)"
+  },
+  "refrigerator1": {
+    "threshold_kW": 0.0354,
+    "rule": "max(0.02 kW, 10% of training 99th percentile)"
+  }
+}

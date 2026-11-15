@@ -1,0 +1,8 @@
+home,raw_rows,duplicates_removed,minutes_on_grid,missing_minutes,has_solar,has_solar2,aggregate_interpolated,aggregate_negative_invalid,air1_status,air1_interpolated,air1_invalid_negative,air1_invalid_over_aggregate,air1_valid,drye1_status,drye1_interpolated,drye1_invalid_negative,drye1_invalid_over_aggregate,drye1_valid,car1_status,car1_interpolated,car1_invalid_negative,car1_invalid_over_aggregate,car1_valid,refrigerator1_status,refrigerator1_interpolated,refrigerator1_invalid_negative,refrigerator1_invalid_over_aggregate,refrigerator1_valid
+661,525530,0,525600,5050,True,False,0,0,ok,0,0,0,520550,ok,0.0,0.0,0.0,520550.0,ok,0,0,0,520550,ok,0.0,0.0,21.0,481423.0
+4373,518040,0,525600,7620,True,False,0,0,ok,0,0,0,517980,ok,0.0,0.0,271.0,517709.0,ok,0,0,218,517762,ok,0.0,0.0,10.0,517970.0
+4767,524440,0,524460,20,True,False,0,0,ok,0,0,0,524440,ok,0.0,0.0,0.0,523960.0,ok,0,0,0,523960,ok,0.0,0.0,0.0,523960.0
+6139,525368,0,525600,344,True,False,344,0,ok,344,0,0,525120,ok,344.0,0.0,0.0,525120.0,ok,338,0,1702,451627,not metered,,,,
+8156,524820,0,525600,840,True,False,0,0,ok,0,0,0,524760,ok,0.0,0.0,29.0,524791.0,ok,0,0,0,524760,ok,0.0,0.0,0.0,524820.0
+1642,519780,0,525600,8520,True,False,0,0,ok,0,0,0,517080,ok,0.0,0.0,0.0,517080.0,ok,0,0,0,517080,ok,0.0,0.0,0.0,502195.0
+7719,523260,0,525600,2340,True,False,0,0,ok,0,0,0,523260,not metered,,,,,ok,0,0,0,523260,ok,0.0,0.0,0.0,523260.0

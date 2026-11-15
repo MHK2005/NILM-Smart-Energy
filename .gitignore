@@ -1,3 +1,8 @@
-dataset
-*.docx
-*.doc
+__pycache__/
+*.pyc
+data/raw/
+data/processed/selected_raw.csv.gz
+models/checkpoints/
+results/predictions/
+.venv/
+.DS_Store

@@ -1,0 +1,5 @@
+model,appliance,accuracy,balanced_accuracy,macro_f1,precision,recall,mae_W,rmse_W,meets_min,meets_high
+sklearn MLP (check),air1,0.9605,0.9539,0.9464,0.8976,0.9413,169.5062,461.8642,True,True
+sklearn MLP (check),drye1,0.9846,0.7472,0.7857,0.6898,0.4992,52.4541,337.5545,False,False
+sklearn MLP (check),car1,0.9535,0.8217,0.8262,0.688,0.6673,202.6749,571.9355,True,False
+sklearn MLP (check),refrigerator1,0.6997,0.6044,0.605,0.7958,0.8009,44.6248,69.0911,False,False

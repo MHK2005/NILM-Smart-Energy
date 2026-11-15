@@ -1,0 +1,97 @@
+{
+  "region": "Austin, Texas (Pecan Street 1-minute, 2018)",
+  "window": 180,
+  "appliances": [
+    "air1",
+    "drye1",
+    "car1",
+    "refrigerator1"
+  ],
+  "dev_homes": [
+    661,
+    4373,
+    4767,
+    6139,
+    8156
+  ],
+  "unseen_homes": [
+    1642,
+    7719
+  ],
+  "homes_order": [
+    661,
+    4373,
+    4767,
+    6139,
+    8156,
+    1642,
+    7719
+  ],
+  "split_mode": "monthly",
+  "split_ratios": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "thresholds_kW": {
+    "air1": 0.3532,
+    "drye1": 0.2704,
+    "car1": 0.3705,
+    "refrigerator1": 0.0354
+  },
+  "input_scaler": {
+    "mean": 1.7671546603846806,
+    "std": 1.9002278802385892
+  },
+  "power_scale_kW": {
+    "air1": 3.532,
+    "drye1": 2.704,
+    "car1": 3.705,
+    "refrigerator1": 0.354
+  },
+  "availability": {
+    "661": {
+      "air1": true,
+      "drye1": true,
+      "car1": true,
+      "refrigerator1": true
+    },
+    "4373": {
+      "air1": true,
+      "drye1": true,
+      "car1": true,
+      "refrigerator1": true
+    },
+    "4767": {
+      "air1": true,
+      "drye1": true,
+      "car1": true,
+      "refrigerator1": true
+    },
+    "6139": {
+      "air1": true,
+      "drye1": true,
+      "car1": true,
+      "refrigerator1": false
+    },
+    "8156": {
+      "air1": true,
+      "drye1": true,
+      "car1": true,
+      "refrigerator1": true
+    },
+    "1642": {
+      "air1": true,
+      "drye1": true,
+      "car1": true,
+      "refrigerator1": true
+    },
+    "7719": {
+      "air1": true,
+      "drye1": false,
+      "car1": true,
+      "refrigerator1": true
+    }
+  },
+  "units": "kW internally; metrics reported in W"
+}
