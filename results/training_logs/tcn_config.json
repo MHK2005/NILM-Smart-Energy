@@ -1,0 +1,26 @@
+{
+  "model": "tcn",
+  "parameters": 7368,
+  "seed": 42,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "batch_size": 512,
+  "max_epochs": 30,
+  "patience": 5,
+  "train_windows": 200000,
+  "val_windows": 60000,
+  "window": 180,
+  "appliances": [
+    "air1",
+    "drye1",
+    "car1",
+    "refrigerator1"
+  ],
+  "pos_weight": [
+    3.524984121322632,
+    50.51932907104492,
+    11.339447975158691,
+    0.37365075945854187
+  ],
+  "loss": "BCEWithLogits(pos_weight, masked) + SmoothL1(scaled power, masked)"
+}

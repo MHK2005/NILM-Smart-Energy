@@ -1,0 +1,38 @@
+{
+  "mlp": {
+    "air1": 0.75,
+    "drye1": 0.95,
+    "car1": 0.8,
+    "refrigerator1": 0.45
+  },
+  "cnn": {
+    "air1": 0.8,
+    "drye1": 0.95,
+    "car1": 0.9,
+    "refrigerator1": 0.45
+  },
+  "lstm": {
+    "air1": 0.75,
+    "drye1": 0.95,
+    "car1": 0.95,
+    "refrigerator1": 0.45
+  },
+  "gru": {
+    "air1": 0.75,
+    "drye1": 0.95,
+    "car1": 0.9,
+    "refrigerator1": 0.4
+  },
+  "cnn_lstm": {
+    "air1": 0.75,
+    "drye1": 0.95,
+    "car1": 0.9,
+    "refrigerator1": 0.45
+  },
+  "tcn": {
+    "air1": 0.75,
+    "drye1": 0.95,
+    "car1": 0.85,
+    "refrigerator1": 0.45
+  }
+}

@@ -1,0 +1,7 @@
+model,all3_meet_min,all3_meet_high,appliances_meeting_min
+1D-CNN,True,True,3
+CNN-LSTM,True,True,3
+GRU,True,True,3
+LSTM,True,True,3
+MLP,True,False,3
+TCN,True,True,3
