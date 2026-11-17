@@ -1,5 +1,5 @@
 """
-Builds PROJECT_REPORT.md from the saved files in data/processed and results/.
+Builds REPORT.md from the saved files in data/processed and results/.
 
 Run:  python -m src.make_report      (run again after training and evaluation)
 
@@ -293,8 +293,8 @@ def main():
     else:
         w("_Written after the models are trained and evaluated._\n")
 
-    (ROOT / "PROJECT_REPORT.md").write_text("\n".join(L))
-    print("Wrote", ROOT / "PROJECT_REPORT.md")
+    (ROOT / "REPORT.md").write_text("\n".join(L))
+    print("Wrote", ROOT / "REPORT.md")
 
 
 if __name__ == "__main__":
