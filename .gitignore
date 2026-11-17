@@ -6,4 +6,4 @@ models/checkpoints/
 results/predictions/
 .venv/
 .DS_Store
-.pdf
+*.pdf
